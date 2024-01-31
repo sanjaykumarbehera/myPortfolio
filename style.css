@@ -1,0 +1,95 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgb(0, 0, 51);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #232351;
+    
+}
+.left{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.right ul{
+    display: flex;
+    margin: 0 30px;
+    align-items: center;
+}
+.right ul li{
+    list-style: none;
+    margin: 0 23px;
+
+}
+ul li a:hover{
+    color: cornflowerblue;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+   
+}
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 35px 0;
+}
+.first-section > div{
+    width: 40%;
+    /* border: 2px solid; */
+    /* height: 90vh; */
+}
+.left-section{
+    font-size: 2.6rem;
+    /* margin: 33px 0; */
+
+}
+
+
+.right-section img{
+    width: 70%;
+    /* background-color: #232351 */
+}
+.col-purple{
+    color: rgb(172, 50, 172);
+}
+main hr{
+    border: 0;
+    height: 1.2px;
+    background-color: #a053ca;
+    margin: 0 60px 20px 
+}
+.second-section{
+    max-width: 80vw;
+    margin: auto;
+}
+.second-section h1{
+    text-decoration: underline;
+}
+.second-section ul li{
+    margin: 10px;
+    position: relative;
+    list-style: none;
+}
+.second-section ul li i{
+    color: aliceblue;
+    font-size: 1.3rem;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+}
